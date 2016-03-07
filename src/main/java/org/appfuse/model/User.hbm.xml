@@ -11,5 +11,5 @@
         <property name="firstName" column="first_name" not-null="true"/>
         <property name="lastName" column="last_name" not-null="true"/>
         <property name="birthday" column="birthday" type="java.util.Date"/>
-    </class>
+    </class>  
 </hibernate-mapping>
