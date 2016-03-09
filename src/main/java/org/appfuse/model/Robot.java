@@ -43,12 +43,4 @@ public class Robot extends BaseObject{
 		this.owner = owner;
 	}
     
-	/**
-	 * @return the id, designation and owner. 
-	 */
-	public String toString(){
-		return "id: " + id + "- designation: " + designation +"- Owner: " + owner;
-	}
-    
-
 }

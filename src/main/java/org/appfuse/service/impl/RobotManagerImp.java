@@ -21,8 +21,8 @@ public class RobotManagerImp implements RobotManager {
 		return dao.getRobots();
 	}
 
-	public Robot getRobot(Long robotId) {
-		return dao.getRobot(robotId);
+	public Robot getRobot(String robotId) {
+		return dao.getRobot(Long.valueOf(robotId));
 	}
 
 	public void saveRobot(Robot robot) {
@@ -30,8 +30,8 @@ public class RobotManagerImp implements RobotManager {
 
 	}
 
-	public void removeRobot(Long robotId) {
-		dao.removeRobot(robotId);
+	public void removeRobot(String robotId) {
+		dao.removeRobot(Long.valueOf(robotId));
 	}
 
 }
